@@ -25,4 +25,17 @@ setInterval( function() {
 }, 1000);
 
 
+//  Get time and convert all on one line
+// var hours = date.getHours().toString(16);
+//  if you want to convert to hex first:
+// hours = hours.length === 2 ? hours : '0' + hours;
 
+// function formatTime (num) {
+//   var hex = num.toString(16);
+//   hex = hex.length === 2 ? hex : '0' + hex;
+//   return hex
+//  }
+
+// hours = formatTime(hours);
+// seconds = formatTime(seconds);
+// minutes = formatTime(minutes);
